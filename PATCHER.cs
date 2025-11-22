@@ -7,10 +7,9 @@ namespace PATCHESS
     {
         public static void Patchall()
         {
-            var harmoney = new Harmony(info2.GUID);
             var harmoney2 = new Harmony(INFO1.GUID);
-            harmoney.PatchAll();
             harmoney2.PatchAll();
         }
     }
+
 }
